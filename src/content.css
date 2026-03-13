@@ -1,0 +1,36 @@
+/* Content Script Styles */
+.wechat-formatter-toolbar {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  z-index: 9999;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wechat-formatter-toolbar h3 {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.wechat-formatter-btn {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  background: #07c160;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background 0.2s;
+}
+
+.wechat-formatter-btn:hover {
+  background: #06ad56;
+}
